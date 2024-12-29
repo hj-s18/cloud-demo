@@ -7,6 +7,7 @@ $conn = mysqli_connect("DB IP","root","Test123!","webtest",3306);
 # mysqli_connect() 함수를 사용하여 MySQL 데이터베이스에 연결
 # mysqli_connect(데이터베이스 서버의 IP 주소, 데이터베이스 사용자 계정 이름, 데이터베이스 비밀번호, 사용할 데이터베이스 이름, 데이터베이스 포트 번호(기본 MySQL 포트))
 # 例: $conn = mysqli_connect("172.17.0.3","root","Test123!","webtest",3306);
+# Docker에서 MySQL 이미지를 기본 설정으로 실행하면 MYSQL_ROOT_PASSWORD를 통해 root 계정이 활성화됨 (docker inspect 명령어로 보면 Env에 MYSQL_ROOT_PASSWORD 있음)
 
 
 
