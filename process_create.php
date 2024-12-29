@@ -3,7 +3,7 @@
 
 
 
-$conn = mysqli_connect("DB IP","root","Test123!","webtest",3306);
+$conn = mysqli_connect("DB IP","root","password","database",3306);
 # mysqli_connect() 함수를 사용하여 MySQL 데이터베이스에 연결
 # mysqli_connect(데이터베이스 서버의 IP 주소, 데이터베이스 사용자 계정 이름, 데이터베이스 비밀번호, 사용할 데이터베이스 이름, 데이터베이스 포트 번호(기본 MySQL 포트))
 # 例: $conn = mysqli_connect("172.17.0.3","root","Test123!","webtest",3306);
